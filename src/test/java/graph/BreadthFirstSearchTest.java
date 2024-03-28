@@ -7,7 +7,7 @@ import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
-public class TestBreadthFirstSearch {
+public class BreadthFirstSearchTest {
 
     @Test
     public void testBFS() {

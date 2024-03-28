@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class TestQuickSort {
+public class MergeSortTest {
     @Test
-    public void testQuickSort() {
+    public void testMergeSort() {
         int[] inputArray = {12, 11, 13, 5, 6, 7};
         int[] expectedArray = {5, 6, 7, 11, 12, 13};
 
-        QuickSort.quickSort(inputArray);
+        MergeSort.mergeSort(inputArray);
 
         assertArrayEquals(expectedArray, inputArray);
     }

@@ -1,7 +1,5 @@
 package graph;
 
-import graph.DepthFirstSearch;
-import graph.GraphNode;
 import org.junit.Test;
 
 import java.util.LinkedHashSet;
@@ -9,7 +7,7 @@ import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
-public class TestDepthFirstSearch {
+public class DepthFirstSearchTest {
 
     @Test
     public void testDFS() {
