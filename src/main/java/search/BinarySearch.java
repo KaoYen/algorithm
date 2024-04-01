@@ -15,7 +15,7 @@ public class BinarySearch {
      * 4. 重複步驟2和步驟3，直到左邊界 left 大於右邊界 right，表示整個數組已被搜索完畢。
      *
      * 如果目標值在數組中存在，則二分搜尋法能夠在時間複雜度為O(log n)的情況下找到該值的位置，其中n為數組的大小。這使得二分搜尋法成為一種高效的查找算法，特別是當數組非常大時。
-     * 
+     *
      * @param sortedArray
      * @param target
      * @return
